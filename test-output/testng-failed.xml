@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="123"/>
+  <parameter name="email" value="coln.porter@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="unit.tests.AccountTests">
+        <methods>
+          <include name="logOutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- unit.tests.AccountTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
